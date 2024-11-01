@@ -1,0 +1,189 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #29c6ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.box {
+    background-color: #29c6ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    max-width: 60%;
+}
+
+.text-content h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.text-content p {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 5px 0 0 0;
+}
+
+.image-content {
+    max-width: 30%;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.bmr-calculator {
+    max-width: 500px;
+    font-family: "Roboto", sans-serif;
+    padding: 8px 24px;
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+    margin: 20px auto; 
+}
+
+.bmr-calculator,
+.bmr-calculator * {
+    box-sizing: border-box;
+}
+
+.bmr-calculator h2 {
+    text-align: center;
+    background: #29c6ff;
+    color: #fff;
+    font-weight: 100;
+    margin: -8px -24px;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+.bmr-calculator form h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 16px 0 10px 0;
+}
+
+.bmr-calculator form input[type="text"] {
+    width: 100%;
+    padding: 4px 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #d5dbdd;
+}
+
+.bmr-calculator form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bmr-calculator form #female {
+    margin-left: 20px;
+}
+
+.bmr-calculator form .height,
+.bmr-calculator form .weight {
+    position: relative;
+}
+
+.bmr-calculator form .unit {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    color: #777;
+}
+
+.bmr-calculator .result .calculate-btn {
+    padding: 8px 24px;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border: none;
+    background: #29c6ff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.bmr-calculator .result {
+    text-align: center;
+    color: #4e4e4e;
+    font-size: 18px;
+}
+
+.bmr-calculator .result .calories {
+    color: #29c6ff;
+    font-size: 38px;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+.bmr-info {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #333;
+    text-align: center;
+}
+
+.bmr-info h2 {
+    color: #29c6ff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.bmr-info p {
+    margin: 10px 0;
+}
+
+.bmr-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.bmr-info li {
+    margin: 5px 0;
+}
+
+.bmr-info strong {
+    font-weight: bold;
+}

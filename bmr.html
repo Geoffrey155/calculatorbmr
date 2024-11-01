@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator Kebutuhan Kalori</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="calorielogo.png" alt="Logo Kalori"/>
+    <h1>BMR CALCULATOR</h1>
+  </header>
+  <div class="box">
+    <div class="container">
+      <div class="text-content">
+        <h1>Kalkulator Kebutuhan Kalori</h1>
+        <p>Berapa jumlah kalori yang Anda butuhkan setiap hari?</p>
+      </div>
+      <div class="image-content">
+        <img src="calorielogo.png" width="200" height="200" alt="Logo Kalori"/>
+      </div>
+    </div>
+  </div>
+  <!--bmrcalculator-->
+  <div class="bmr-calculator">
+    <h2>BMR Calculator</h2>
+    <div class="controls">
+        <form>
+            <h3>Age</h3>
+            <input type="text" id="age" value="0"/>
+            <div class="gender">
+                <h3>Gender</h3>
+                <input type="radio" id="male" value="male" name="gender"/>
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="female" name="gender"/>
+                <label for="female">Female</label>
+            </div>
+            <div class="height">
+                <h3>Height</h3>
+                <input type="text" id="height" value="0"/>
+                <div class="unit">cm</div>
+            </div>
+            <div class="weight">
+                <h3>Weight</h3>
+                <input type="text" id="weight" value="0" />
+                <div class="unit">kg</div>
+            </div>
+        </form>
+    </div>
+    <div class="result">
+        <button class="calculate-btn">Calculate</button>
+        <div class="result-message"><span class="calories"></span> Calories/day</div>
+    </div>
+  </div>
+
+  <!-- Informasi tentang BMR Calculator -->
+   <div class="bmr-info">
+    <h2>Apa itu BMR Calculator?</h2>
+    <p>BMR atau <em>Basal Metabolic Rate</em> adalah jumlah kalori minimum yang dibutuhkan tubuh Anda untuk menjalankan fungsi-fungsi dasar seperti bernapas, berdetak jantung, dan menjaga suhu tubuh saat beristirahat total. <strong>BMR Calculator</strong> membantu Anda menghitung berapa banyak kalori yang terbakar oleh tubuh Anda setiap hari tanpa melakukan aktivitas fisik apa pun.</p>
+  
+    <h2>Mengapa BMR Penting?</h2>
+    <ul>
+      <li><strong>Dasar Perhitungan Kebutuhan Kalori:</strong> BMR adalah titik awal untuk menghitung total kebutuhan kalori harian Anda. Dengan mengetahui BMR, Anda dapat mengatur asupan kalori untuk mencapai tujuan berat badan Anda.</li>
+      <li><strong>Membuat Rencana Diet yang Efektif:</strong> BMR membantu Anda membuat rencana diet yang disesuaikan dengan kebutuhan tubuh Anda.</li>
+      <li><strong>Memahami Metabolisme:</strong> BMR dapat memberikan gambaran tentang seberapa cepat tubuh Anda membakar kalori.</li>
+    </ul>
+   </div>
+  <script src="bmr.js"></script>
+  
+</body>
+</html>
